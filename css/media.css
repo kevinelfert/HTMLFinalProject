@@ -1,0 +1,170 @@
+/*
+47em to 30em
+*/
+@media screen and (max-width: 47em){
+
+   /*
+   All Files
+   */
+
+   /* Header */
+
+   header-image{
+      max-width: 61%;
+   }
+
+   /* Navigation */
+
+   nav{
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+   }
+   nav a{
+      display: block;
+      text-align: center;
+      border-bottom: 1px solid #c8c8c8;
+      border-left: 1px solid #c8c8c8;
+      border-right: 1px solid #c8c8c8;
+      background-color: #f7f7f7;
+   }
+
+   .notHome{
+      margin-left: 0px;
+   }
+
+   /* Main */
+
+   h1{
+      margin-top: 8em;
+   }
+
+   main{
+      max-width: 100%;
+      border-radius: 0px;
+   }
+
+   main img{
+      display: block;
+      float: none;
+      text-align: center;
+   }
+
+   /* Aside */
+
+   aside{
+      max-width: 100%;
+      background-color: white;
+      text-align: center;
+   }
+
+   /*
+   Intro
+   */
+
+   #HomeC{
+      padding-bottom: 1em;
+   }
+
+   /*
+   Books
+   */
+      
+   #CProgrammingLanguage{
+      padding-bottom: 2em;
+   }
+      
+   #HTMLandCSS{
+      padding-bottom: 2em;
+   }
+      
+   #DatabaseSystems{
+      padding-bottom: 2em;
+   }
+      
+   #JavaProgramming{
+      padding-bottom: 2em;
+   }
+} 
+
+/*
+30em and smaller
+*/
+@media screen and (max-width: 30em) {
+
+   /*
+   All Files
+   */
+
+   /* Main */
+
+   main{
+      max-width: 100%;
+      border-radius: 0px;
+   }
+
+   /* Footer */
+   footer{
+      width: 100%;
+      text-align: center;
+   }
+
+   footer li{
+      display: block;
+   }
+
+   .pageLinks li{
+      padding-bottom: 1em;
+   }
+
+   .pageLinks a{
+      border-right: none;
+   }
+
+   /*
+   Index
+   */
+
+   #HomeC{
+      padding-bottom: 1em;
+   }
+
+   /*
+   Books
+   */
+      
+   #CProgrammingLanguage{
+      padding-bottom: 2em;
+   }
+      
+   #HTMLandCSS{
+      padding-bottom: 2em;
+   }
+      
+   #DatabaseSystems{
+      padding-bottom: 2em;
+   }
+      
+   #JavaProgramming{
+      padding-bottom: 2em;
+   }
+
+   /* Contact */
+
+   textarea{
+      width: 200px;
+      height: 150px;
+   }
+
+   input[type="radio"]{
+      margin: 0 -20px 0 -10px;
+   }
+
+   label[for="business"]{
+      margin: 0 0 0 20px;
+   }
+
+   label[for="individual"]{
+      margin: 0 0 0 20px;
+   }
+}
